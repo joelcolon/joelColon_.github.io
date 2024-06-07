@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <input type="text" id="display" readonly>
+  <br>
+  <button class="numeros" onclick="appendToDisplay('1')">1</button>
+  <button class="numeros" onclick="appendToDisplay('2')">2</button>
+  <button class="numeros" onclick="appendToDisplay('3')">3</button>
+  <button class="signo" onclick="appendToDisplay('+')">+</button>
+  <br>
+  <button class="numeros" onclick="appendToDisplay('4')">4</button>
+  <button class="numeros" onclick="appendToDisplay('5')">5</button>
+  <button class="numeros" onclick="appendToDisplay('6')">6</button>
+  <button class="signo" onclick="appendToDisplay('-')">-</button>
+  <br>
+  <button class="numeros" onclick="appendToDisplay('7')">7</button>
+  <button class="numeros" onclick="appendToDisplay('8')">8</button>
+  <button class="numeros" onclick="appendToDisplay('9')">9</button>
+  <button class="signo" onclick="appendToDisplay('*')">*</button>
+  <br>
+  <button class="numeros" onclick="appendToDisplay('0')">0</button>
+  <button class="numeros" onclick="appendToDisplay('.')">.</button>
+  <button class="numeros" onclick="clearDisplay()">C</button>
+  <button class="signoI" onclick="calculate()">=</button>
+  <br>
+
+  <script src="js.js">
+   
+  </script>
+</body>
+</html>
